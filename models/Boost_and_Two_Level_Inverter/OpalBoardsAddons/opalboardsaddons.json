@@ -8,9 +8,9 @@
       ]
     }
   },
-  "efpgasimVersion": "v2.18.1.15",
+  "efpgasimVersion": "v2.19.2",
   "edbsimVersion": "0.0.0",
   "schematicEditorVersion": "v2.18.1",
   "firmwareName": "TE0741_4-EX-0001-3_5_0_817-eHSx128_Gen4_Machines_IOConfig2-3C-17",
-  "mUuid": "2c20ae5a-fc6a-4854-bede-d82d5951205c"
+  "mUuid": "a92315dd-a3e6-463f-9aed-19b2c6b243e9"
 }

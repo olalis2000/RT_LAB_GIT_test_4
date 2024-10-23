@@ -13,7 +13,7 @@ OpalBoards_GUI::OpalBoardsExchangerConfiguration {
   m04_0_masterWithExternalClk=0
   m04_1_synchroInitTimeout=ts * 10
   m06_0_bitstreamPathType=Standard_repositories
-  m06_bitstreamConfigFile=C:/Aleksandra/RT_LAB_GIT_test_4/firmware/TE0741_4-EX-0001-eHSx128_Gen4_Machines_IOConfig2.opal
+  m06_bitstreamConfigFile=C:/Users/ORTG/Documents/Files/RT_LAB_GIT_test_4/firmware/TE0741_4-EX-0001-eHSx128_Gen4_Machines_IOConfig2.opal
   m07_showAdvancedCfg=0
   m08_timeStepFactor=1
   m09_0_collectRegisterAccess=0
