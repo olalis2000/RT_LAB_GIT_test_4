@@ -1,0 +1,247 @@
+[
+  {
+    "connectables": [
+      {
+        "connectableProperties": {
+          "type": "ANALOG_INPUTS",
+          "dataType": "ANALOG",
+          "direction": "INPUT",
+          "port": 0,
+          "dwordCount": 4
+        },
+        "connectableObjects": [
+          {
+            "connectableUuid": "vin",
+            "connectableParameter": {
+              "mName": "V0",
+              "mParameterType": "single",
+              "mFormattingGain": 1.0,
+              "mValueTable": [
+                0.0
+              ],
+              "mIsTunable": true,
+              "mIsSaturable": true,
+              "lowerLimit": -1.7976931348623157E308,
+              "upperLimit": 1.7976931348623157E308
+            }
+          },
+          {
+            "connectableUuid": "vsrc1",
+            "connectableParameter": {
+              "mName": "V0",
+              "mParameterType": "single",
+              "mFormattingGain": 1.0,
+              "mValueTable": [
+                0.0
+              ],
+              "mIsTunable": true,
+              "mIsSaturable": true,
+              "lowerLimit": -1.7976931348623157E308,
+              "upperLimit": 1.7976931348623157E308
+            }
+          },
+          {
+            "connectableUuid": "vsrc2",
+            "connectableParameter": {
+              "mName": "V0",
+              "mParameterType": "single",
+              "mFormattingGain": 1.0,
+              "mValueTable": [
+                0.0
+              ],
+              "mIsTunable": true,
+              "mIsSaturable": true,
+              "lowerLimit": -1.7976931348623157E308,
+              "upperLimit": 1.7976931348623157E308
+            }
+          },
+          {
+            "connectableUuid": "vsrc3",
+            "connectableParameter": {
+              "mName": "V0",
+              "mParameterType": "single",
+              "mFormattingGain": 1.0,
+              "mValueTable": [
+                0.0
+              ],
+              "mIsTunable": true,
+              "mIsSaturable": true,
+              "lowerLimit": -1.7976931348623157E308,
+              "upperLimit": 1.7976931348623157E308
+            }
+          }
+        ]
+      },
+      {
+        "connectableProperties": {
+          "type": "GATES_INPUTS",
+          "dataType": "DIGITAL",
+          "direction": "INPUT",
+          "port": 1,
+          "dwordCount": 1
+        },
+        "connectableObjects": [
+          {
+            "connectableUuid": "arm1_g1"
+          },
+          {
+            "connectableUuid": "fault_sw"
+          }
+        ]
+      },
+      {
+        "connectableProperties": {
+          "type": "AVERAGED_OUTPUTS",
+          "dataType": "ANALOG",
+          "direction": "OUTPUT",
+          "port": 0,
+          "dwordCount": 9
+        },
+        "connectableObjects": [
+          {
+            "connectableUuid": "2Lvl_Ia",
+            "connectableIndex": 0,
+            "connectableParameter": {
+              "mParameterType": "single",
+              "mFormattingGain": 1.0,
+              "mValueTable": [],
+              "mIsTunable": true,
+              "mIsSaturable": true,
+              "lowerLimit": -3.4028234663852886E38,
+              "upperLimit": 3.4028234663852886E38
+            }
+          },
+          {
+            "connectableUuid": "2Lvl_Ib",
+            "connectableIndex": 1,
+            "connectableParameter": {
+              "mParameterType": "single",
+              "mFormattingGain": 1.0,
+              "mValueTable": [],
+              "mIsTunable": true,
+              "mIsSaturable": true,
+              "lowerLimit": -3.4028234663852886E38,
+              "upperLimit": 3.4028234663852886E38
+            }
+          },
+          {
+            "connectableUuid": "2Lvl_Ic",
+            "connectableIndex": 2,
+            "connectableParameter": {
+              "mParameterType": "single",
+              "mFormattingGain": 1.0,
+              "mValueTable": [],
+              "mIsTunable": true,
+              "mIsSaturable": true,
+              "lowerLimit": -3.4028234663852886E38,
+              "upperLimit": 3.4028234663852886E38
+            }
+          },
+          {
+            "connectableUuid": "2Lvl_Va",
+            "connectableIndex": 3,
+            "connectableParameter": {
+              "mParameterType": "single",
+              "mFormattingGain": 1.0,
+              "mValueTable": [],
+              "mIsTunable": true,
+              "mIsSaturable": true,
+              "lowerLimit": -3.4028234663852886E38,
+              "upperLimit": 3.4028234663852886E38
+            }
+          },
+          {
+            "connectableUuid": "2Lvl_Vb",
+            "connectableIndex": 4,
+            "connectableParameter": {
+              "mParameterType": "single",
+              "mFormattingGain": 1.0,
+              "mValueTable": [],
+              "mIsTunable": true,
+              "mIsSaturable": true,
+              "lowerLimit": -3.4028234663852886E38,
+              "upperLimit": 3.4028234663852886E38
+            }
+          },
+          {
+            "connectableUuid": "2Lvl_Vc",
+            "connectableIndex": 5,
+            "connectableParameter": {
+              "mParameterType": "single",
+              "mFormattingGain": 1.0,
+              "mValueTable": [],
+              "mIsTunable": true,
+              "mIsSaturable": true,
+              "lowerLimit": -3.4028234663852886E38,
+              "upperLimit": 3.4028234663852886E38
+            }
+          },
+          {
+            "connectableUuid": "boost_I",
+            "connectableIndex": 6,
+            "connectableParameter": {
+              "mParameterType": "single",
+              "mFormattingGain": 1.0,
+              "mValueTable": [],
+              "mIsTunable": true,
+              "mIsSaturable": true,
+              "lowerLimit": -3.4028234663852886E38,
+              "upperLimit": 3.4028234663852886E38
+            }
+          },
+          {
+            "connectableUuid": "boost_V",
+            "connectableIndex": 7,
+            "connectableParameter": {
+              "mParameterType": "single",
+              "mFormattingGain": 1.0,
+              "mValueTable": [],
+              "mIsTunable": true,
+              "mIsSaturable": true,
+              "lowerLimit": -3.4028234663852886E38,
+              "upperLimit": 3.4028234663852886E38
+            }
+          }
+        ]
+      }
+    ],
+    "mFormFactorInfo": {
+      "mValue": "hNZQcNJIogQoog2QmW/J9iOg0W4nR8MjNU4QgOgLyFk\u003d",
+      "mLength": 19
+    },
+    "mSolverFamilyInfo": {
+      "mValue": "xYaWu3tktSCj+12Dsm+BBoXQz/F5y0H8RLhiatEKxEo\u003d",
+      "mLength": 23
+    },
+    "mDiscretizationMethodInfo": {
+      "mValue": "DR/4e7WT+1/vLdPQ1BaLiBTU+vIx3wCT04aYvpci4Ny7JrkACLzfFWMLqezjCLVL",
+      "mLength": 40
+    },
+    "mHighPerformanceInfo": {
+      "mValue": "F5DV6nGgvQl7I/AX80DWhpjJykqwktpYuVEmjiHOll4\u003d",
+      "mLength": 22
+    },
+    "mModelUuid": "2c20ae5a-fc6a-4854-bede-d82d5951205c",
+    "addonKey": "ehs",
+    "addonType": "ehs",
+    "mUuid": "7c6d9e02-0590-44dd-b423-b1db624dd6d2",
+    "mDataInPort": 0,
+    "mParameterSet": {
+      "mControlIdList": [
+        0
+      ],
+      "mPort": 1,
+      "mIsScenarioFromCPU": false
+    },
+    "addonLicInfo": {
+      "mValue": "a6BSHcc4c7bJ4MHk8Blbebzjz5TxgLa0pHughwwO5Zs\u003d",
+      "mLength": 22
+    },
+    "mStreamFile": {
+      "fileType": "BINARY_FILE",
+      "path": "./ehs_0.bin",
+      "dwordCount": 10,
+      "port": 0
+    }
+  }
+]
